@@ -4,8 +4,8 @@ import styled from 'styled-components'
 const Container = styled.label`
     position: relative;
     display: inline-block;
-    width: 30px;
-    height: 16px;
+    width: 40px;
+    height: 20px;
 
     > input {
         display: none;
@@ -30,8 +30,8 @@ const Slider = styled.span`
         left: 0;
         right: 0;
         bottom: 0;
-        height: 15px;
-        width: 15px;
+        height: 20px;
+        width: 20px;
         background-color: #999;
         transition: 0.2s;
         border-radius: 50%;
@@ -42,7 +42,7 @@ const SliderInput = styled.input`
     &:checked + ${Slider} {
         background-color: #8ab8db;
         &:before {
-            transform: translateX(15px);
+            transform: translateX(20px);
             background-color: #0365b2;
         }
     }
